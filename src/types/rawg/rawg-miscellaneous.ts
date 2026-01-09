@@ -1,0 +1,15 @@
+export type Order =
+  | "name"
+  | "released"
+  | "added"
+  | "created"
+  | "updated"
+  | "rating"
+  | "metacritic"
+  | "-name"
+  | "-released"
+  | "-added"
+  | "-created"
+  | "-updated"
+  | "-rating"
+  | "-metacritic";
